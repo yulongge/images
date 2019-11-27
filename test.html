@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1">
+		<title>test</title> 
+		<style>
+			html, body {
+				font-size: 10px;
+				padding: 0;
+				margin: 0;
+			}
+			#app {
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				display: flex;
+				flex-direction: column;
+				
+			}
+			.banner {
+				height: 50vh;
+				background: rgb(255, 102, 0);
+			}
+			.box {
+				flex: 1;
+				background: #0f8ad1;
+				display: flex;
+				flex-direction: column;
+				box-sizing: border-box;
+			}
+			.box-item {
+				flex: 1;
+				border: 1px solid #ffffff;
+				box-sizing: border-box;
+				display: flex;
+			}
+			.item {
+				flex: 1;
+				border: 1px solid #ffffff;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="app">
+			<div class="banner"></div>
+			<div class="box">
+				<div class="box-item">
+					<span class="item"></span>
+					<span class="item"></span>
+					<span class="item"></span>
+				</div>
+				<div class="box-item">
+					<span class="item"></span>
+					<span class="item"></span>
+					<span class="item"></span>
+				</div>
+				<div class="box-item">
+					<span class="item"></span>
+					<span class="item"></span>
+					<span class="item"></span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
